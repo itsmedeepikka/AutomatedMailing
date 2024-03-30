@@ -11,8 +11,8 @@ to_addr=data['email'].tolist()      # Change'email' to column name containg emai
 name = data['name'].tolist()
 
 l=len(name)
-email=""   #Enter Your email id here
-password=""           #Enter your Password
+email=""   #Please Enter Your email id here
+password=""           #Please Enter your Password
 
 for i in range (l):
     msg=MIMEMultipart()
